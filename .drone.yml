@@ -1,0 +1,16 @@
+pipeline:
+  build:
+    image: quintoandar/drone-gcr
+    repo: quintohub/drone-serverless
+    tags:
+    - ${DRONE_COMMIT:0:7}
+
+  build-stable:
+    image: quintoandar/drone-serverless
+    repo: quintohub/drone-serverless
+    tags:
+    - latest
+    - stable
+    when:
+      branch:
+      - master
