@@ -16,4 +16,4 @@ pipeline:
 ## Versions
 
 * `serverless`: [1.52.0](https://www.npmjs.com/package/serverless/v/1.52.0)
-* `node`: [10.16.3-jessie-slim](https://github.com/nodejs/docker-node/blob/a9c583095d4cf08bbd68f570a1f9a99780820351/10/jessie-slim/Dockerfile)
+* `node`: [10.16.3-alpine](https://github.com/nodejs/docker-node/blob/a9c583095d4cf08bbd68f570a1f9a99780820351/10/alpine/Dockerfile)
