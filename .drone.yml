@@ -1,5 +1,4 @@
 pipeline:
-
   build:
     image: quintoandar/drone-gcr
     repo: quintohub/drone-serverless
