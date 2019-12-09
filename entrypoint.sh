@@ -1,4 +1,4 @@
-#!sh
+#!/bin/sh
 
 role_arn=$AWS_ROLE_ARN
 
