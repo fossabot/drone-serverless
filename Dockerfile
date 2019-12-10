@@ -13,4 +13,4 @@ RUN mv /root/.local/bin/aws /usr/bin/
 
 COPY entrypoint.sh .
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
