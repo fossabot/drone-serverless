@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "AQUI"
 role_arn=$AWS_ROLE_ARN
 
 if [ -n "$role_arn" ]; then
