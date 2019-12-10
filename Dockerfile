@@ -11,6 +11,6 @@ RUN npm i -g serverless && \
 
 RUN mv /root/.local/bin/aws /usr/bin/
 
-COPY entrypoint.sh .
+COPY entrypoint.sh /
 
 ENTRYPOINT [ "/entrypoint.sh" ]
