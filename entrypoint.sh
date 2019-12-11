@@ -1,6 +1,6 @@
 #!/bin/sh
 
-role_arn=$AWS_ROLE_ARN
+role_arn=$AWS_IAM_ROLE
 
 if [ -n "$role_arn" ]; then
     echo ">>> Assuming role..."
